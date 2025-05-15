@@ -96,7 +96,7 @@ int main() {
     tabuleiro[3][8] = 3;
     tabuleiro[4][8] = 3;
 
-    // Gerar e aplicar habilidades
+    // Habilidades
     gerarCone(cone);
     aplicarHabilidade(tabuleiro, cone, 3, 5, 1, 2); // cone no topo esquerdo
 
